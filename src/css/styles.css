@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --text-color: hsl(193, 38%, 86%);
+    --advice-dice-color: hsl(150, 100%, 66%);
+    --advice-card-color: hsl(217, 19%, 24%);
+    --background-color: hsl(218, 23%, 16%);
+    }    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 31rem;
+    height: 20rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--advice-card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card .titulo {
+    margin-bottom: 4rem;
+    color: var(--advice-dice-color);
+    font-size: 16px;
+}
+
+.card .conselho {
+    padding-bottom: 5rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card footer {
+    width: 100%;
+    height: 80px;
+    padding-top: 2rem;
+    border-top: 1px dashed var(--text-color);
+    text-align: center;
+    position: absolute;
+    bottom: -7%;
+}
+
+.card footer .footer-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--advice-dice-color);
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card footer .footer-icon:hover {
+    background-color: hsl(150, 100%, 76%);
+    box-shadow: 0 0 5px 5px hsl(150, 100%, 76%);
+    transition: 1s;
+}
