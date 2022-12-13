@@ -30,7 +30,7 @@ Users should be able to:
 
 - Project Overview
 
-<img src="src/images/screenshot.png" alt="project overview" />
+<img src="src/gif/gif.gif" alt="project overview" />
 
 ### Links
 
