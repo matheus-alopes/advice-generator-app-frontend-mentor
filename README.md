@@ -28,9 +28,7 @@ Users should be able to:
 
 ### Overview
 
-- Project Overview
-
-<img src="src/gif/gif.gif" alt="project overview" />
+<img src="src/Gif/gif.gif" alt="project overview" />
 
 ### Links
 
