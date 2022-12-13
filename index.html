@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <link rel="shortcut icon" href="./src/images/icon.png" type="image/x-icon">
+        <title>Advice Generator | Frontend Mentor</title>
+    </head>
 
-    <title>Gerador de Conselhos</title>
-</head>
+    <body>
+        <main class="card">
+            <header class="title">
+                    <span>ADVICE</span> # <span class="advice-id">0</span>
+            </header>
 
-<body>
-    <main class="card">
-        <header class="titulo">
-            ADVICE #<span>347</span>
-        </header>
+            <p class="advice">
+                Push The button and let fate choose some words for you. <br> - Developed by MAL
+            </p>
 
-        <p class="conselho">
-            Push The button and let fate choose some words for you. <br> - Developed by MAL
-        </p>
+            <picture class="bottom-line-img">
+                <source media="(min-width: 630px)" srcset="./src/images/pattern-divider-desktop.svg" alt="pattern divider">
 
-        <footer>
-            <img src="./src/images/icon.png" alt="Oracle icon" class="footer-icon">
-        </footer>
-    </main>
+                <source media="(max-width: 630px)" srcset="./src/images/pattern-divider-mobile.svg" alt="pattern divider">
 
-    <script src="./src/Js/main.js"></script>
-</body>
+                <img srcset="./src/images/pattern-divider-desktop.svg" alt="pattern divider">
+            </picture>
 
+            <footer>
+                <img src="./src/images/icon.png" alt="Oracle icon" class="footer-icon">
+            </footer>
+        </main>
+
+        <script src="./src/Js/main.js"></script>
+    </body>
 </html>

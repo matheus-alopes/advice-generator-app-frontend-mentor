@@ -1,5 +1,5 @@
-let idConselho = document.querySelector(".card .titulo span");
-let textoConselho = document.querySelector(".card .conselho");
+let idConselho = document.querySelector(".card .title .advice-id");
+let textoConselho = document.querySelector(".card .advice");
 
 const botaoConselhoAleatorio = document.querySelector("main footer img");
 
