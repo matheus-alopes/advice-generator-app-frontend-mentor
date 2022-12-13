@@ -13,7 +13,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [About the Author](#author)
+- [About the Author](#about-the-author)
 - [Acknowledgments](#acknowledgments)
 
 ## The project
