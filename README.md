@@ -4,7 +4,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Overview](#overview)
+- [The Project](#the-project)
   - [The challenge](#the-challenge)
   - [Overview](#overview)
   - [Links](#links)
@@ -16,7 +16,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [About the Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
+## The project
 
 ### The challenge
 
